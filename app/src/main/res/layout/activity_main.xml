@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/movedTextview"
+        android:layout_width="0dp"
+        android:layout_height="300dp"
+        android:background="#E91E63"
+        android:gravity="center"
+        android:text="Your Data Will Be Shown Here"
+        android:textColor="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/toBeMoved"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:hint="Enter Data You Want To Save"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movedTextview" />
+
+    <Button
+        android:id="@+id/moveButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Move Data"
+        app:layout_constraintEnd_toEndOf="@+id/toBeMoved"
+        app:layout_constraintStart_toStartOf="@+id/toBeMoved"
+        app:layout_constraintTop_toBottomOf="@+id/toBeMoved" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:minHeight="48dp"
+        android:text="On"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/moveButton" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Save Data"
+        app:layout_constraintEnd_toEndOf="@+id/switch1"
+        app:layout_constraintStart_toStartOf="@+id/switch1"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
