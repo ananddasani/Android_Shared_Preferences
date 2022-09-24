@@ -1,6 +1,8 @@
 # Android_Shared_Preferences
 Using Shared Preference in an App to save &amp; retrieve the preference of user
 
+This topic is a part of [My Complete Andorid Course](https://github.com/ananddasani/Android_Apps)
+
 # Code
 
 #### 1st Activity 
