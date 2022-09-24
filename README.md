@@ -87,6 +87,5 @@ aSwitch = findViewById(R.id.switch1);
 
 # App Highlight
 
-<img src="app_images/SP Code.png" width="1000" /><br>
-
-<img src="app_images/SP App1.png" width="300" /><br>
+![SP App1](https://user-images.githubusercontent.com/74413402/192094218-770f4658-613c-4084-a18f-9247a88ba3ae.jpg)
+![SP Code](https://user-images.githubusercontent.com/74413402/192094220-75fd16dd-f91e-4ea2-b37f-1548b480fb5c.jpg)
